@@ -1,0 +1,190 @@
+.wrapper {
+    background-size: cover;
+}
+
+.user-login-block {
+    margin: 2% auto;
+    width: 35%;
+    height: 55%;
+    padding: 10px 0 ;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    display: block;
+}
+
+.form-title {
+    text-align: left;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+input {
+    border: 4px solid #f2f2f2;
+    width: 365px;
+    height: 35px;
+    background: white;
+    padding: 0 0 0 10px;
+    font-family: "Carlito";
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+
+input:focus {
+    font-weight: 100;
+    outline: none;
+    border: 4px solid pink;
+}
+
+#create-new-post-request-button {
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 4px solid #F2F2F3;
+    width: 385px;
+    color: #535353;
+    transition: all 0.2s ease;
+}
+
+#create-new-post-request-button:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+
+
+#login-request-button {
+    display: block;
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    border: 4px solid #F2F2F3;
+    width: 385px;
+    color: #535353;
+    transition: all 0.2s;
+}
+
+#login-request-button:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+
+#login-register-button {
+    display: block;
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 33px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border: 4px solid #F2F2F3;
+    width: 405px;
+    color: #535353;
+    transition: all 0.2s;
+}
+
+#login-register-button:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+
+.user-login-block > #register {
+    display: block;
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 4px solid #F2F2F3;
+    width: 362px;
+    color: #535353;
+    transition: all 0.2s ease;
+}
+
+.user-login-block > #register:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+
+#register-register-button {
+    display: block;
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    border: 4px solid #F2F2F3;
+    width: 385px;
+    color: #535353;
+    transition: all 0.2s ease;
+}
+
+#register-register-button:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+
+#login-register-button {
+    display: block;
+    font: 15px Carlito;
+    color: white;
+    background-color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 4px solid #F2F2F3;
+    width: 362px;
+    color: #535353;
+    transition: all 0.2s ease;
+}
+
+#login-register-button:hover {
+    background-color: pink;
+    color: white;
+    border-color: pink;
+    font: 15px Carlito;
+}
+.form-link {
+    text-decoration: none;
+    color: #048e76;
+    font: 16px Lato;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#register-title {
+    width: 200px;
+}

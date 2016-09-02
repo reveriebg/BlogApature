@@ -1,0 +1,208 @@
+a {
+    text-decoration: none;
+    color: #535353;
+}
+
+.dot {
+    margin-top: 13px;
+    margin-right: 10px;
+    float: left;
+    width: 20px;
+    border-radius: 40px;
+    background-color: #019c8c;
+}
+#post {
+    height: 419px;
+    overflow: hidden;
+}
+.title {
+    width: 700px;
+    padding: 15px 0 10px 35px;
+    color: #535353;
+    font-size: 23px;
+    font-family: "Carlito";
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    line-height: 22px;
+    border-left: 5px solid pink;
+}
+
+.subtitle-left {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 5px 10px 5px 5px;
+    color: #535353;
+    background: white;
+}
+.subtitle-left > span {
+    padding: 5px 10px;
+    background: pink;
+    color: white;
+}
+.subtitle-right {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px;
+    color: white;
+    background: pink;
+}
+
+.single-post:nth-child(even) > article > .title {
+    border-color: #535353;
+}
+.single-post:nth-child(even) > article > .content {
+    border-color: #535353;
+}
+.single-post:nth-child(even) > article > button {
+    background: #535353;
+    color: white;
+}
+.single-post:nth-child(even) > article > button:hover {
+    background: white;
+    color: #535353;
+}
+.content {
+    padding: 0 0 20px 5%;
+    width: 700px;
+    color: #535353;
+    height: 100%;
+    font-family: "Carlito";
+    word-spacing: 6px;
+    line-height: 24px;
+    border-left: 5px solid pink;
+    overflow: hidden;
+}
+.single-post > article > .img {
+    position: relative;
+    width: 750px;
+    height: 200px;
+    overflow: hidden;
+    top: 3px;
+}
+.single-post > article > .img > img {
+    position: relative;
+    width: 750px;
+    bottom: 50%;
+}
+
+.posts-button {
+    position: absolute;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 0;
+    width: 100px;
+    background: pink;
+    z-index: 1000;
+    border: none;
+    bottom: -25px;
+    color: white;
+    font-family: "Carlito";
+    transition: all 0.2s ease;
+}
+.posts-button:hover {
+    background: white;
+    color: pink;
+    cursor: pointer;
+}
+
+.single-post {
+    width: 750px;
+    margin: 50px 0 0 35px;
+    position: relative;
+}
+.recent-posts {
+    width: 250px;
+}
+.recent-single-post {
+    position: relative;
+    width: 250px;
+    margin: 0 0 0 15px;
+}
+.recent-single-post > article {
+    margin: 0 0 10px 0;
+    width: 250px;
+}
+.recent-single-post > article > img {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    top: 3px;
+}
+.recent-single-post > article > .title {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px 0 5px 35px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.recent-single-post > article > .content {
+    width: 300px;
+}
+.recent-single-post > article > button {
+    position: absolute;
+    bottom: -29px;
+}
+.recent-single-post:nth-child(even) > article > .title {
+    border-color: #535353;
+}
+.recent-single-post:nth-child(even) > article > .content {
+    border-color: #535353;
+}
+.recent-single-post:nth-child(even) > article > button {
+    background: #535353;
+    color: white;
+}
+.recent-single-post:nth-child(even) > article > button:hover {
+    background: white;
+    color: #535353;
+}
+#about-me {
+    margin: 10px 0 30px 15px;
+    width: 250px;
+    text-align: center;
+}
+#about-me > h1 {
+    color: #535353;
+    font-size: 23px;
+    font-family: "Carlito";
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    line-height: 22px;
+    text-align: left;
+    border-left: 5px solid pink;
+    padding: 20px 0 15px 40px;
+}
+#about-me > h2 {
+    color: #535353;
+    font-size: 23px;
+    font-family: "Carlito";
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+#about-me > p {
+    text-align: left;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    padding: 0 0 0 35px;
+    border-left: 5px solid pink;
+}
+#about-me > img {
+    margin: 0 0 25px 0;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+

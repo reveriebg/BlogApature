@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Carlito";
+    src: url("../fonts/Carlito-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.otf");
+}
+body {
+    line-height: 1;
+    font: 16px Lato;
+    color: #565656;
+}
+
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 739px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+hr {
+    display: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 60%;
+}
+
+main {
+    margin: 0 auto;
+    min-height: inherit;
+    width: 1100px;
+    position: relative;
+    padding: 0 0 100px 0;
+    /*float: left;*/
+}
+
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.blog-title {
+    width: 120px;
+    font: 34px Carlito;
+    font-weight: 600;
+    margin: 50px auto;
+    color: #565656;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 4px solid pink;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: white;
+    font: 16px 'Carlito';
+    /*background: orange;*/
+}
+.logo {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    /*display: none;*/
+}
+.sidebar > nav > img {
+    padding: 15px 0 0 0;
+    width: 160px;
+}
+.sidebar > nav {
+    margin: 0 auto;
+    width: 1033px;
+    padding: 8px 0 0 0;
+}
+.recent-posts-tab {
+    float: right;
+    width: 300px;
+    height: 500px;
+}
+.sidebar > nav > h2 {
+}
+.sidebar > nav > ul {
+    /*width: 300px;*/
+    margin: 33px 0;
+    /*float: left;*/
+    /*background: orange;*/
+}
+.sidebar > nav > ul:first-of-type > li:last-of-type {
+    margin-right: 0;
+}
+.sidebar > nav > ul:first-of-type {
+    float: right;
+}
+.sidebar > nav > ul:first-of-type > li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.sidebar > nav > ul:nth-of-type(2) {
+}
+.jumbotron {
+    position: relative;
+    margin: 0 auto;
+    width: 1032px;
+}
+.jumbotron > span {
+    position: absolute;
+    width: 430px;
+    top: 85%;
+    left: 50%;
+    margin: -19px -215px;
+    color: white;
+    font-weight: normal;
+    padding: 10px 20px;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+}
+.jumbotron > img {
+    width: 100%;
+}
+/*.sidebar {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #06C0AB;
+    color: white;
+    font: 32px Lato;
+    font-weight: 100;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.single-menu-element-link {
+    text-decoration: none;
+    color: white;
+    -moz-transition-property: font-weight;
+    -moz-transition-duration: 3s;
+    -moz-transition-timing-function: linear;
+    -moz-transition-delay: 2.5s;
+    -webkit-transition-property: font-weight;
+    -webkit-transition-duration: 3s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 2.5s;
+    font-weight: 300;
+}
+
+.single-menu-element-link:hover {
+    font-weight: 900;
+    transition: background 0.7s ease,
+    padding 0.5s linear;
+}
+
+.single-menu-element:hover {
+    font-weight: 900;
+    background-color: #019c8c;
+    height: 40px;
+    line-height: 32px;
+    transition: background 0.7s ease, padding 0.5s linear;
+}
+
+.single-menu-element {
+    padding: 10px;
+}
+*/
+/*.recent-posts-title {
+    font: 32px Oswald;
+    font-weight: 600;
+}
+
+.single-recent-post {
+    padding: 10px;
+    font-size: 18px;
+}
+#main-footer {
+    margin: 40px 35px;
+}
+#main-footer > ul {
+    float: left;
+    width: 300px;
+}
+#main-footer > ul > li {
+    display: inline-block;
+    width: 30px;
+    padding: 6px 5px;
+    color: white;
+    background: pink;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+#main-footer > ul > li:hover {
+    color: pink;
+    background: white;
+}*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+/* LOADER STYLING */
+.loader:before,
+.loader:after,
+.loader {
+  border-radius: 50%;
+  width: 4.5em;
+  height: 4.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -8.5em -0.5em;
+  color: #ffffff;
+  font-size: 10px;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before {
+  left: -5.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 5.5em;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 4.5em 0 -1.3em pink;
+  }
+  40% {
+    box-shadow: 0 4.5em 0 0 pink;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 4.5em 0 -1.3em pink;
+  }
+  40% {
+    box-shadow: 0 4.5em 0 0 pink;
+  }
+}
+footer > p {
+    font-family: "Carlito";
+    font-size: 15px;
+    margin: 10px 0 15px 0;
+}
